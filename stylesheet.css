@@ -1,0 +1,45 @@
+body {
+    background-image: url("image.html");
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px
+  }
+  .portrait {
+    height: 400px;
+    width: 350px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .caption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    font-size: 18px
+  }
+  .red {
+    color: red;
+    font-weight: bold;
+  }
+  a {
+    color: yellow;
+  }
+  th {
+    color: black;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  tr:nth-child(odd) {
+    background-color: powderblue;
+  }
+  table {
+    height: 25%;
+    width: 50%;
+  }
